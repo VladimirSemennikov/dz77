@@ -34,7 +34,7 @@ import psycopg2
 
 # создаем базу данных
 def create_db(conn):
-    conn = psycopg2.connect(dbname="postgres", user="postgres", password="Mectb666", host="127.0.0.1")
+    conn = psycopg2.connect(dbname="postgres", user="postgres", password="***", host="127.0.0.1")
         # создание БД
     conn.autocommit = True
     sql = "CREATE DATABASE test_db1"
